@@ -4,7 +4,7 @@ import text_to_image
 
 f = open("sample.png", 'br') #add files here
 b64_img = base64.b64encode(f.read())
-print(str(b64_img)) 
+#print(str(b64_img)) 
 f = open("sample2b64.txt", "w") #name txt file
 f.write(b64_img.decode())
 
